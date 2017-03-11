@@ -8,7 +8,7 @@
 
 ![Netlify Settings](images/settings.png)
 
-6. Verify deployment of your site by going to NAME_OF_YOUR_APP.netlify.com
+6. Verify deployment of your React app by going to NAME_OF_YOUR_APP.netlify.com
 7. Dance
 
 Changes pushed to the master branch of your app will automatically be deployed to Netlify. BOOM!
