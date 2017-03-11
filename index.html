@@ -9,6 +9,20 @@
             text-align: center;
             font-family: proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;;
         }
+
+        li {
+            margin: 4px;
+        }
+
+        .instructions {
+            text-align: left;
+        }
+
+        .netlify-button,
+        .screenshot,
+        .instructions {
+            margin: 40px;
+        }
     </style>
 </head>
 
@@ -19,7 +33,24 @@
         <img class="nav-logo" src="https://cdn.worldvectorlogo.com/logos/react.svg" width="400" height="400">
     </div>
     <a href="https://app.netlify.com/start/deploy?repository=https://github.com/SamSamskies/create-react-app-boilerplate">
-        <img src="https://www.netlify.com/img/deploy/button.svg" title="Deploy to Netlify">
+        <img class="netlify-button" src="https://www.netlify.com/img/deploy/button.svg" title="Deploy to Netlify">
     </a>
+    <hr>
+    <div class="instructions">
+        <ol>
+            <li>Click the Deploy to Netlify button</li>
+            <li>Follow instructions and accept authorizations that popup</li>
+            <li>Sit back for about a minute while Netlify builds and deploys your React app</li>
+            <li>
+                Optional: Edit settings such as the name of your app
+                <div>
+                    <img class="screenshot" src="//raw.githubusercontent.com/SamSamskies/deploy-react-app/master/images/settings.png" width="400" />
+                </div>
+            </li>
+            <li>Verify deployment of your site by going to NAME_OF_YOUR_APP.netlify.com</li>
+            <li>Dance</li>
+        </ol>
+        <p>Changes pushed to the master branch of your app will automatically be deployed to Netlify. BOOM!</p>
+    </div>
 </body>
 </html>
