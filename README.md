@@ -5,9 +5,7 @@
 3. Follow instructions and accept authorizations that popup
 4. Sit back for about a minute while Netlify builds and deploys your React app
 5. Optional: Edit settings such as the name of your app
-
 ![Netlify Settings](images/settings.png)
-
 6. Verify deployment of your React app by going to NAME_OF_YOUR_APP.netlify.com
 7. Dance
 
