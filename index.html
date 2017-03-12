@@ -10,6 +10,21 @@
             font-family: proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;;
         }
 
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        footer a {
+            color: dimgray;
+            margin: 4px;
+        }
+
+        footer small {
+            margin-right: 8px;
+        }
+
         li {
             margin: 4px;
         }
@@ -18,6 +33,7 @@
             text-align: left;
         }
 
+        footer,
         .netlify-button,
         .screenshot,
         .instructions {
@@ -28,6 +44,7 @@
             width: 260px;
         }
     </style>
+    <script src="//use.fontawesome.com/deb9d5e773.js"></script>
 </head>
 
 <body>
@@ -56,5 +73,14 @@
         </ol>
         <p>Changes pushed to the master branch of your app will automatically be deployed to Netlify. BOOM!</p>
     </div>
+    <footer>
+        <small>Created by Sam Samskies</small>
+        <a href="//github.com/SamSamskies" title="GitHub">
+            <i class="fa fa-github fa-2x"></i>
+        </a>
+        <a href="//www.linkedin.com/in/samsamskies" title="LinkedIn">
+            <i class="fa fa-linkedin-square fa-2x"></i>
+        </a>
+    </footer>
 </body>
 </html>
